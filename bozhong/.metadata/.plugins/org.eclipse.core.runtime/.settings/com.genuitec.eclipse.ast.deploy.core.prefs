@@ -1,0 +1,14 @@
+#Wed Apr 18 23:49:42 CST 2018
+tomcat7Server.DAMS.altContextRoot=
+tomcat7Server.DAMS.deploymentPath=E\:\\apache-tomcat-7.0.82\\webapps\\mall
+tomcat7Server.DAMS.isDeployed=true
+tomcat7Server.DAMS.shouldBackup=false
+tomcat7Server.DAMS.noFileCopy=false
+tomcat7Server.DAMS.IEARProjectName=
+tomcat7Server.DAMS.type=WebDeployment
+tomcat7Server.DAMS.contextRoot=/mall
+tomcat7Server.DAMS.deployIsOverProject=false
+tomcat7Server.DAMS.isUptoDate=true
+eclipse.preferences.version=1
+tomcat7Server.DAMS.shouldOverwrite=false
+tomcat7Server.DAMS.isExploded=true

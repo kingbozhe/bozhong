@@ -1,0 +1,191 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:tahoma, "宋体", "微软雅黑";
+	width:100%;
+	height:100%;
+}
+.red{
+	color:#da0d38;
+}
+/*ipopup*/
+.ipopup{
+	width:100%;
+	height:auto;
+	margin:0 10px 10px 0;
+	overflow:hidden;
+	color:#37558c;
+	/*--做完后注释--
+	background:#fafafa;
+	border:solid 1px #c9cfd9;*/
+	/*--做完后注释--*/}
+.ipopup table{
+	width:92%;
+	height:auto;
+	font-size:14px;
+	line-height:32px;
+	float:left;
+	margin:1% 4% 4% 4%;
+}
+.ipopup table i{
+	color:#da0d38;
+	font-style:normal;
+}
+.ipopup table input{
+	width:94%;
+	height:24px;
+	margin:0 0 10px 0;
+	padding:0 2%;
+	background:#fff;
+	border:solid 1px #d1d1d1;
+	padding:4px 2% 0 2%\9;
+	height:20px\9;
+}
+.ipopup table select{
+	width:100%;
+	height:26px;
+	line-height:26px;
+	margin:0 0 10px 0;
+}
+.ipopup .tree textarea{
+	width:90%;
+	margin:5%;
+}
+.ipopup table .dis{
+	background:#f5f5f5;
+	border:solid 1px #d1d1d1;
+	color:#bbb;
+	font-weight:normal;
+	text-shadow:1px 1px #fff;
+}
+.ipopup table .checkbox-dis{
+	height:12px;
+	height:16px\9;
+	margin:0 0 0 -2px;
+	margin:0 0 0 -4px\9;
+	border:none;
+	background:none;
+}
+.ipopup a.btn{
+	cursor:pointer;
+	width:73px;
+	height:28px;
+	line-height:28px;
+	line-height:30px\9;
+	font-size:14px;
+	margin:10px 0 7px 0;
+	display:inline-block;
+	text-align:center;
+	text-shadow:1px 1px #fff;
+}
+.ipopup a.btn-y{
+	color:#195a88;
+	float:left;
+	border:solid 1px #37558c;
+	_background-color: #dbe6ed;
+	*background-color: #dbe6ed;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#f7fbfe,endColorStr=#e0e7ea);/*Firefox*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f7fbfe), to(#e0e7ea));/*IE6、7、8*/
+	background:-moz-linear-gradient(top, #f7fbfe, #e0e7ea);/*Chrome*/
+	background:-o-linear-gradient(top, #f7fbfe 0%,#e0e7ea 100%);/*Opera*/
+	/*background:url(/edwmPortlet/image/popup-btn-y.png) no-repeat center;*/
+}
+.ipopup a.btn-n{
+	color:#666;
+	float:right;
+	border:solid 1px #888;
+	_background-color: #eaeaea;
+	*background-color: #eaeaea;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#f4f4f4,endColorStr=#e1e1e1);/*Firefox*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1ff4f4f41f1), to(#e1e1e1));/*IE6、7、8*/
+	background:-moz-linear-gradient(top, #f4f4f4, #e1e1e1);/*Chrome*/
+	background:-o-linear-gradient(top, #f4f4f4 0%,#e1e1e1 100%);/*Opera*/
+	/*background:url(/edwmPortlet/image/popup-btn-n.png) no-repeat center;*/
+}
+.ipopup .tree{
+	width:100%;
+	height:320px;
+	min-height:300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	float:left;
+}
+.ipopup .tree .ileft{
+	width:60%;
+	height:100%;
+	float:left;
+}
+.ipopup .tree .ileft .itree{
+	width:90%;
+	height:auto;
+	float:left;
+	margin:0 5%;
+}
+.ipopup .tree .iright{
+	width:40%;
+	height:auto;
+	float:right;
+	margin:0 -1px 0 0;
+}
+
+.ipopup .tree .iright .r-in{
+	width:100%;
+	height:auto;
+	float:left;
+
+}
+.ipopup .tree .iright .r-in table{
+	width:100%;
+	height:auto;
+	font-size:14px;
+	line-height:32px;
+	float:left;
+	margin:0;
+	text-align:center;
+	/*
+	background:#fff;
+	border:solid 1px #c9cfd9;
+	*/
+}
+.ipopup .tree .iright .r-in table th{
+	font-weight:bold;
+	color:#37558c;
+	text-shadow:1px 1px #fff;
+	border-left:dashed 1px #c9cfd9;
+	border-bottom:dashed 1px #c9cfd9;
+	background:#f5f5f5;
+}
+.ipopup .tree .iright .r-in table td{
+	text-shadow:1px 1px #fff;
+	border-left:dashed 1px #c9cfd9;
+	border-bottom:dashed 1px #c9cfd9;
+	background:#fcfcfc;
+}
+.ipopup .tree .iright .r-in table .icheckbox{
+	height:12px;
+	height:16px\9;
+	margin:0 0 0 -2px;
+	margin:0 0 0 -4px\9;
+	border:none;
+	background:none;
+	width: 15px;
+}
+.ipopup .tree .iright .r-in .r-btn{
+	margin:5%;
+	float:right;
+	width:auto;
+	height:32px;
+	font-size:14px;
+	padding:5px 10px;
+	background:#e1eaf2;
+	border:solid 1px #83a0bb;
+	text-shadow:1px 1px #fff;
+}
+.icon-type{
+	position:absolute;
+	right:50px;
+	bottom:68px;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--  - Application context definition for "springapp" DispatcherServlet.  -->
+<beans>
+    <description>Contains definitions for beans used by the edwm Portlet user interface</description>
+
+    <!-- view resolvers -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <description>Resolves view names to JSP implementations in the portal-jsp directory</description>
+        <property name="order"><value>1</value></property>
+        <property name="viewClass"><value>org.springframework.web.servlet.view.JstlView</value></property>
+        <property name="prefix"><value>/WEB-INF/portlet-jsp/</value></property>
+        <property name="suffix"><value>.jsp</value></property>
+    </bean>
+
+
+    <!--  Handler Mappings -->
+
+    <bean id="portletModeHandlerMapping" class="org.springframework.web.portlet.handler.PortletModeHandlerMapping"
+          abstract="false" singleton="true" lazy-init="default" autowire="default" dependency-check="default">
+        <description>Maps request paths to controllers that handle the request</description>
+        <property name="order" value="2"/>
+        <property name="portletModeMap">
+            <map>
+                <entry key="view">
+                    <ref bean="edwmViewController"/>
+                </entry>
+                <!-- <entry key="edit">
+                    <ref bean="edwmPreferencesController"/>
+                </entry> -->
+                <!--entry key="help">
+                    <ref bean="myHelpController"/>
+                </entry-->
+            </map>
+        </property>
+    </bean>
+
+    <bean id="defaultExceptionHandlerTemplate" class="org.springframework.web.portlet.handler.SimpleMappingExceptionResolver" abstract="true">
+                <description>Maps errors to views that display the error</description>
+    <property name="defaultErrorView" value="exception"/>
+    <property name="exceptionMappings">
+      <props>
+        <prop key="javax.portlet.PortletSecurityException">notAuthorized</prop>
+                <prop key="org.acegisecurity.AuthenticationCredentialsNotFoundException">notAuthorized</prop>
+                <prop key="javax.portlet.UnavailableException">notAvailable</prop>
+      </props>
+    </property>
+  </bean>
+</beans>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--  - Application context definition for "springapp" DispatcherServlet.  -->
+<beans>
+    <description>Contains definitions for beans used by the edwm Portlet user interface</description>
+
+    <!-- map requests to controllers by mapping url to the controller name -->
+<!--     <bean id="handlerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+			<props>
+			    <prop key="/messages">MessageController</prop>
+			</props>
+		</property>
+    </bean> -->
+
+    <!--  controllers  -->
+    <bean id="methodNameResolver"
+          class="org.springframework.web.servlet.mvc.multiaction.InternalPathMethodNameResolver" />
+
+<!--     <bean id="MessageController" class="com.teradata.portlets.i18n.MessageServer">
+        <description>controller for javascript data requests</description>
+    </bean> -->
+</beans>

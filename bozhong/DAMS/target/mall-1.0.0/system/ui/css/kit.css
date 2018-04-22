@@ -1,0 +1,794 @@
+ .imm{
+ 	width: 100%;
+ }
+.im{
+    float: left;
+    height: auto;
+    color: #666;
+    padding-left: 0;
+    padding-right: 0;
+}
+.im > div{
+    float: left;
+}
+
+.im em{
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    overflow: hidden;
+    text-align: right;
+    white-space: nowrap;
+    width: 115px;
+    margin-top: 3px;
+    padding-right: 10px;
+}
+.stitle{
+    width: 100%;
+    height: 50px;
+    background-color: #587DA7;
+    color: #fff;
+    line-height: 50px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/*--page--*/
+.self{
+    width: 100%;
+    height: auto;
+}
+.sleft{
+    background-color: #f7f7f7;
+    border-right: 1px solid #dcdcdc;
+    color: #999;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 5%;
+    overflow: hidden;
+    padding-left: 35px;
+    width: 20%;
+}
+.sleft i{
+    font-style: normal;
+    color: #999;
+    font-size: 13px;
+    display: block;
+}
+.sright{
+    float: right;
+    height: 60px;
+    padding: 20px 0;
+    width: 75%;
+}
+
+.stree{
+    height: 420px;
+}
+/*输入框*/
+input.itext{
+    border-radius: 0;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.6);
+    float: left;
+    font-size: 12px;
+    height: 22px;
+    padding: 0 6px;
+    width: 100%;
+    outline: none;
+}
+
+/*下拉框*/
+.sdrop{
+    position: relative;
+}
+.sdrop .dropdown-toggle{
+	border-color: ;
+}
+.sdrop button.btn {
+    border-radius: 0;
+    color: rgba(0, 0, 0, 0.6);
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    height: 22px;
+    line-height: 8px;
+    padding: 0 7px;
+    text-align: left;
+    width: 100%;
+}
+.caret{
+    float: right;
+    margin-top: 3px;
+    margin-top: 3px\9;
+    display: block;
+}
+.sdrop i{
+    float: left;
+    font-style: normal;
+}
+.dropdown-menu > li > a {
+    padding: 3px 6px;
+}
+.dropdown-menu {
+    border-radius: 0;
+    min-width: 10px;
+    right: 0\9;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    font-size: 13px;
+    z-index: 100;
+}
+.dropdown-menu-select {
+    height:22px;
+    width: 100%;
+    font-size: 13px;
+    
+}
+
+/*下拉框-end*/
+
+
+.ibtn{
+    height: auto;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    width: 50px;
+    overflow: hidden;
+}
+.ibtn button{
+    border: medium none;
+    color: #fff;
+    font-size: 1em;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 13px;
+    top: 0;
+    margin-bottom: 12px;
+}
+/*.ibtn button:last-child{*/
+    /*margin-bottom: 0;*/
+/*}*/
+.head .bgimg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+/*下拉框end*/
+
+/*搜索*/
+.input-group {
+    float: right;
+}
+.input-group {
+    width: 57%;
+    position: relative;
+}
+.input-group .form-control {
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+    height: 22px;
+    padding: 2px 6px;
+    width: 100%;
+    border-radius: 0;
+}
+.input-group .form-control{
+
+}
+.input-group-addon {
+    background: none;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    height: 22px;
+    line-height: 19px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    transition: all 0.2s linear 0s;
+    width: 24px;
+    z-index: 10;
+}
+.input-group-addon i{
+	color: #5d99db;
+	line-height: 22px;
+}
+/*.sdate{*/
+    /*border: 1px solid #ccc;*/
+    /*background-color: #fff;*/
+    /*color: #999;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*点选*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.sradio {
+    width: 100%;
+    float: right;
+}
+.sradio em{
+    display: block;
+    margin-left: 5px;
+    width: auto;
+    margin-top: 1px\9;
+}
+.sradio .sra{
+    float: left;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: 1px;
+    padding: 0;
+    width: auto;
+}
+.sradio .sra:last-child{
+    margin-right: 0;
+}
+.sradio .sra input{
+    float: left;
+    margin: 3px 0;
+}
+
+.checkbox {
+    border-radius: 0;
+}
+/*按钮*/
+.btnblue{
+    background-color: #fff;
+    color: #5d99db;
+    border: 1px solid #5d99db;
+    transition: .1s linear all;
+    -webkit-transition: .1s linear all;
+    -o-transition: .1s linear all;
+    -moz-transition: .1s linear all;
+}
+.bgblue{
+    color: #fff;
+    background-color: #5d99db;
+}
+.btnblue:hover {
+    background-color: #5d99db;
+    color: #fff;
+    border: 1px solid #5d99db;
+}
+.btngreen{
+    background-color: #fff;
+    color: #6BC788;
+    border: 1px solid #6BC788;
+    transition: .1s linear all;
+    -webkit-transition: .1s linear all;
+    -o-transition: .1s linear all;
+    -moz-transition: .1s linear all;
+}
+.bggreen{
+    color: #fff;
+    background-color: #6BC788;
+}
+.btngreen:hover{
+    background-color: #6BC788;
+    color: #fff;
+    border: 1px solid #6BC788;
+}
+.btnorange{
+    background-color: #fff;
+    color: #E6A64B;
+    border: 1px solid #E6A64B;
+    transition: .1s linear all;
+    -webkit-transition: .1s linear all;
+    -o-transition: .1s linear all;
+    -moz-transition: .1s linear all;
+}
+.bgorange{
+    color: #fff;
+    background-color: #E6A64B;
+}
+.btnorange:hover{
+    background-color: #E6A64B;
+    color: #fff;
+    border: 1px solid #E6A64B;
+}
+.btnred{
+    background-color: #fff;
+    color: #E77B56;
+    border: 1px solid #E77B56;
+    transition: .1s linear all;
+    -webkit-transition: .1s linear all;
+    -o-transition: .1s linear all;
+    -moz-transition: .1s linear all;
+}
+.bgred{
+    color: #fff;
+    background-color: #E77B56;
+}
+.btnred:hover{
+    background-color: #E77B56;
+    color: #fff;
+    border: 1px solid #E77B56;
+}
+.btngray{
+    background-color: #fff;
+    color: #93989E;
+    border: 1px solid #93989E;
+    transition: .1s linear all;
+    -webkit-transition: .1s linear all;
+    -o-transition: .1s linear all;
+    -moz-transition: .1s linear all;
+}
+.bggray{
+    color: #fff;
+    background-color: #93989E;
+}
+.btngray:hover{
+    background-color: #93989E;
+    color: #fff;
+    border: 1px solid #93989E;
+}
+.dbtn{
+    height: 26px;
+    line-height: 26px;
+    width: 410px;
+}
+.dbtn button{
+    border-radius: 0;
+    height: 22px;
+    margin-right: 6px;
+    width: 65px;
+    font-size: 12px;
+}
+
+.btnthree{
+    border: 1px solid #5d99db;
+    border-radius: 0;
+    color: #5d99db;
+    height: 25px;
+    line-height: 22px;
+    padding: 0;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    width: 100px;
+    font-size: 12px;
+}
+.btnthree:hover{
+    background-color: #5d99db;
+    color: #fff;
+    border: 1px solid #5d99db;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #5d99db;
+    background-color: #fff;
+}
+
+
+/*TAB-1*/
+.ztab {
+    color: #999;
+    width: 37.5%;
+}
+.ztab div{
+    border-bottom: 1px solid #c6c6c6;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+    width: 25%;
+}
+.ztab div.click{
+    border-bottom: 3px solid #5D99DB;
+    padding-bottom: 3px;
+    color: #5D99DB;
+}
+.ztab div:hover{
+    border-bottom: 1px solid #5D99DB;
+    padding-bottom: 5px;
+    color: #5D99DB;
+}
+
+/*TAB-2*/
+.stab {
+    color: #999;
+    width: 37.5%;
+}
+.stab div{
+    border-bottom: 1px solid #5d99db;
+    cursor: pointer;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+    width: 25%;
+}
+.stab div.click{
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #5D99DB;
+    border-right: 1px solid #5D99DB;
+    border-top: 1px solid #5D99DB;
+    color: #5D99DB;
+    padding-bottom: 4px;
+}
+.stab div:hover{
+    color: #5D99DB;
+}
+
+/*面包屑*/
+.sbre em{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    /* cursor: pointer;
+    color: #4688d0; */
+}
+.sbre i{
+    color: #999;
+    margin: 0 9px;
+}
+.sbre em.click{
+    color: #888;
+}
+
+
+/*进度条*/
+.sform{
+    z-index: 1000;
+}
+.progress {
+    background-color: #f5f5f5;
+    border-radius: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 16px;
+    margin-top: 9px;
+    overflow: hidden;
+    width: 38%;
+}
+.progress-bar {
+    background-color: #e77c57;
+}
+
+/*三级联动下拉框*/
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style:none;
+}
+
+.item{
+    float:left;
+    overflow:hidden;
+    margin-right: 10px;
+    width: 30%;
+}
+.item i{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #999;
+    cursor: pointer;
+    display: block;
+    font-style: normal;
+    height: 22px;
+    line-height: 20px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+.item span{
+    color: #999;
+    float: right;
+    font-size: 0.9em;
+    margin-right: 10px;
+    margin-top: -17px;
+    cursor: pointer;
+}
+.item ul{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #999;
+    display: none;
+    height: 270px;
+    margin-top: 2px;
+    overflow: scroll;
+    padding-left: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.item ul li{
+    border-bottom: 1px solid #e6ecef;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.item ul li em{
+    font-size: 13px;
+    font-style: normal;
+    padding-left: 6px;
+}
+.item ul li a{
+    color: #999;
+    display: block;
+    font-size: 13px;
+    line-height: 28px;
+    padding-left: 11px;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+.item ul li a:hover{
+    color: #4990E2;
+    background-color: #F7F7F7;
+}
+
+/*多项选择器*/
+.schose{
+    float: left;
+    height: auto;
+    width: 70%;
+}
+.schose .morechose{
+    width: 40%;
+    float: left;
+}
+.schose .morechose .cho{
+    background-color: #fff;
+    border: 1px solid #cecece;
+    height: 270px;
+    overflow: auto;
+    width: 100%;
+}
+.schose .morechose .cho em{
+    font-style: normal;
+    font-size: 13px;
+    float: left;
+}
+
+.schose .morechose .cho .right{
+    float: right;
+}
+.schose .morechose .cho .left{
+    float: left;
+}
+.schose .morechose em{
+    font-size: 13px;
+    font-style: normal;
+    color: #666;
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    margin-top: -30px;
+}
+.schose .scbtn{
+    float: left;
+    height: auto;
+    padding: 0 7%;
+    text-align: center;
+    width: 20%;
+}
+.schose .scbtn button:first-child{
+	margin-top: 0;
+}
+.schose .scbtn button{
+    border: none;
+    border-radius: 0;
+    float: left;
+    font-size: 18px;
+    height: 25px;
+    line-height: 1rem;
+    margin-top: 16px;
+    text-align: center;
+    width: 25px;
+}
+.schose .bigbtn{
+    float: right;
+    width: 40%;
+    height: 30px;
+    margin-top: 15px;
+}
+.schose .bigbtn button{
+    border: medium none;
+    display: block;
+    float: right;
+    font-size: 12px;
+    height: 22px;
+    margin-left: 22px;
+    width: 60px;
+}
+
+.sesim{
+    width: 80%;
+    float: left;
+}
+.sesim .sim{
+    height: auto;
+    float: left;
+    margin: 8px 0 12px 0;
+    color: #6A6A6A;
+    padding: 0;
+    width: 35%;
+    line-height: 20px;
+}
+.sesim .sim .cdrop{
+    width: 70%;
+    float: right;
+    position: relative;
+}
+.sesim .sim .cdrop button.btn{
+    border-radius: 0;
+    color: #999;
+    font-size: 12px;
+    height: 22px;
+    line-height: 8px;
+    line-height: 6px\9;
+    padding: 0 7px;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+}
+.sesim .sim .cdrop i{
+    float: left;
+    font-style: normal;
+}
+.os{
+    float: left;
+    margin: 5px 0;
+    color: #666;
+    padding-left: 0;
+    width: 100%;
+}
+.os em{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: right;
+    white-space: nowrap;
+    width: 80px;
+}
+.os .scheck{
+    float: left;
+}
+.sim em{
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    font-style: normal;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    width: 30%;
+}
+.scheck em{
+    float: right;
+    margin-left: 5px;
+    text-align: left;
+    width: auto;
+    margin-top: 3px \9;
+}
+.scheck input{
+    float: left;
+     margin-top: 4px \9;
+}
+.scheck .sra{
+    float: left;
+    height: 22px;
+    padding: 0;
+    margin-right: 15px;
+}
+.scheck .sra:last-child{
+    margin-right: 0;
+}
+
+.textbox-text {
+    background-color: #fff;
+}
+.combo-arrow, .combo-arrow:hover {
+    background-color: #fff;
+    background-size: 65% auto;
+}
+span.textbox {
+    border: 1px solid #999;
+    border-radius: 0;
+    height: 22px;
+    line-height: 18px;
+    width: 100%;
+}
+.textbox .textbox-text {
+    border-radius: 0;
+}
+.textbox .validatebox-text{
+	height: 22px !important;
+	line-height: 22px !important;
+}
+.cdate .textbox{
+    width: 100%;
+}
+.cdate span a{
+    float: right;
+    height: 20px !important;
+}
+.slider-inner a{
+    /*background-color: #fff;*/
+    /*border: 1px solid #DDDDDD;*/
+    /*border-radius: 100%;*/
+    /*box-shadow: 0 1px 2px rgba(0,0 , 0, 0.27);*/
+    /*height: 19px;*/
+    /*width: 19px;*/
+    height: 24px;
+    width: 24px;
+}
+.slider-inner {
+    background: #cccccc;
+    border: 1px #ccc solid;
+    height: 5px;
+}
+.slider-rule span {
+    border-color: #ccc;
+}
+.slider-rulelabel span {
+    /*display: none;*/
+   color: rgba(0, 0, 0, 0.4);
+}
+.slider-handle {
+    background: rgba(0, 0, 0, 0) url("../images/handle.png") no-repeat scroll 0 0;
+}
+.textbox-text,.textbox{
+    width: 100% !important;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #fff;
+}
+.slider-h{
+	margin-left: 9px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-color: #fff;
+    box-shadow: none;
+}
+.btn-group .btn-default:hover{
+	background-color: #5d99db;
+	color: #ffffff;
+}
+button, input:not([type="radio"]):not([type="checkbox"]), select {
+    vertical-align: unset;
+}
+.zselect{
+	width: 100%;
+	height: 22px;
+}
+.zselect .item{
+	height: 100%;
+	font-size: 0.8em;
+	font-size: 1em\9;
+}
+.datebox .combo-arrow{
+	background: url(../../assets/css/images/datebox_arrow-s.png)\9;
+	background-repeat: no-repeat\9;
+	background-position-x: 2px\9;
+	background-position-y: 3px\9;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 5px 0 0;
+}

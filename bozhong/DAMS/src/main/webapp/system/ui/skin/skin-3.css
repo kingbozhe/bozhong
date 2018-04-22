@@ -1,0 +1,106 @@
+.login-logo {
+	background: url(../images/td-login.png) no-repeat 10px 15px / 180px;
+}
+.form-box {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.form-top {
+	color: #000;
+	text-shadow: 1px 1px 0 #fff;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#ffffff, endColorStr=#E7E7E7); /*IE 6 7 8*/
+	background: -ms-linear-gradient(top, #ffffff, #E7E7E7);        /* IE 10 */
+	background:-moz-linear-gradient(top, #ffffff, #E7E7E7);/*火狐*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#E7E7E7));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #ffffff, #E7E7E7);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #ffffff, #E7E7E7BE);  /*Opera 11.10+*/
+    border-bottom: solid 1px #BDBDBD;
+}
+.login-inn button.btn {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#FF4E5E, endColorStr=#BB283E); /*IE 6 7 8*/
+	background: -ms-linear-gradient(top, #FF4E5E, #BB283E);        /* IE 10 */
+	background:-moz-linear-gradient(top, #FF4E5E, #BB283E);/*火狐*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF4E5E), to(#BB283E));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #FF4E5E, #BB283E);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #FF4E5E, #BB283E);  /*Opera 11.10+*/
+}
+.login-inn button.btn:hover {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#FB4B5B, endColorStr=#B31A31); /*IE 6 7 8*/
+	background: -ms-linear-gradient(top, #FB4B5B, #B31A31);        /* IE 10 */
+	background:-moz-linear-gradient(top, #FB4B5B, #B31A31);/*火狐*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FB4B5B), to(#B31A31));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #FB4B5B, #B31A31);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #FB4B5B, #B31A31);  /*Opera 11.10+*/
+	opacity: 1;
+}
+.form-group {
+    border: solid 1px #BDBDBD;
+}
+.form-group input,
+.form-group input:hover,
+.form-group input:focus {
+	background-color: #fff;
+	border: none;
+	color: #000;
+}
+.form-box {
+	margin: 0 auto;
+	clear: both;
+}
+/*input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder {
+    color: #999;
+}*/
+
+.head .logo{
+	background: url(../images/td-white.png) no-repeat 10px 11px / 210px;
+}
+.head {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#43658F, endColorStr=#43658F); /*IE 6 7 8*/
+	background: -ms-linear-gradient(top, #43658F, #43658F);        /* IE 10 */
+	background:-moz-linear-gradient(top, #43658F, #43658F);/*火狐*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#43658F), to(#43658F));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #43658F, #43658F);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #43658F, #43658F);  /*Opera 11.10+*/
+}
+.head .headright {
+    background: url(../images/header-pic.png) no-repeat right top / 85%;
+}
+.menu-list {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=#3D5C7F, endColorStr=#3D5C7F); /*IE 6 7 8*/
+	background: -ms-linear-gradient(left, #3D5C7F, #3D5C7F);        /* IE 10 */
+	background:-moz-linear-gradient(left, #3D5C7F, #3D5C7F);/*火狐*/
+	background: -webkit-gradient(linear, left, from(#3D5C7F), to(#3D5C7F));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(left, #3D5C7F, #3D5C7F);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(left, #3D5C7F, #3D5C7F);  /*Opera 11.10+*/
+}
+.HeadMenu .active,
+.HeadMenu .active:hover{
+    background: rgba(0, 0, 0, 0.1);
+    border-left: solid 1px rgba(255, 255, 255, 0.4);
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.head .headright .information .inn:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.18);
+    border-left: solid 1px rgba(255, 255, 255, 0.4);
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.LeftMenu > ul > li > em {
+    background: rgba(0, 0, 0, 0.2);
+}
+.LeftMenu ul.two {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.LeftMenu ul em:hover {
+    color: #A9DBFF;
+}
+.LeftMenu ul em:hover span {
+    color: #A9DBFF;
+}
+.sky-blue {
+    color: #A9DBFF;
+}

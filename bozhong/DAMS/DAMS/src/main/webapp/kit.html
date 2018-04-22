@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--默认声明，不要改-->
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="IE=edge chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width  initial-scale=1.0  maximum-scale=1.0  minimum-scale=1.0  user-scalable=no  minimal-ui"
+          name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- home screen app 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 状态栏 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+    <meta name="viewport" content="width=device-width  initial-scale=1.0">
+    <title>控件</title>
+
+    <!--框架的放这-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/easyui.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/amazeui.css" rel="stylesheet" type="text/css">
+
+    <!--自定义的放这-->
+    <link href="ui/css/common.css" rel="stylesheet" type="text/css">
+    <link href="ui/css/kit.css" rel="stylesheet" type="text/css">
+
+    <!--[if IE]>
+    <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="stitle">TD - 数据管控平台 控件</div>
+    
+    <div class="inn">
+	    	<!-- 文本框 -->
+	    <div class="sleft">
+	        <i>1.文本框</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!--文本框-->
+	            <em>输入名称</em>
+	            <div class="sinput">
+	                <input class="itext form-control" placeholder="请输入名称" aria-describedby="basic-addon1" type="text">
+	            </div>
+	        </div>
+	    </div>
+    </div>
+    
+
+	<div class="inn">
+	    <!-- 下拉单选 -->
+	    <div class="sleft">
+	        <i>2.下拉单选</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!--下拉选择-->
+	            <em>筛选名称</em>
+	            <div class="sinput sdrop">
+	                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                    <i>全部</i>
+	                    <span class="caret"></span>
+	                </button>
+	                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+	                    <li><a href="#">选项 1</a></li>
+	                    <li><a href="#">选项 2</a></li>
+	                    <li><a href="#">选项 3</a></li>
+	                    <li><a href="#">选项 4</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	
+	<div class="inn">
+	    <!-- 下拉树结构 -->
+	    <div class="sleft">
+	        <i>3.下拉树结构</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!-- 下拉树结构 -->
+	            <em>筛选名称</em>
+	            <div class="sinput sdrop">
+	                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                    <i>全部</i>
+	                    <span class="caret"></span>
+	                </button>
+	                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+	                    <li><a href="#">选项 1</a></li>
+	                    <li><a href="#">选项 2</a></li>
+	                    <li><a href="#">选项 3</a></li>
+	                    <li><a href="#">选项 4</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 输入搜索 -->
+	    <div class="sleft">
+	        <i>4.输入搜索</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!--输入搜索-->
+	            <em>搜索</em>
+	            <div class="sinput input-group">
+	                <input class="form-control" placeholder="请输入名称" aria-describedby="basic-addon2" type="text">
+	                <span class="input-group-addon" id="basic-addon2">
+	                    <i class="fa fa-search"></i>
+	                </span>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 日期控件 -->
+	    <div class="sleft">
+	        <i>5.日期控件</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im vdate"><!-- 日期控件 -->
+	            <em>日期</em>
+	            <div class="sinput cdate">
+	                <input class="easyui-datebox" style="width: 100%"/>
+	            </div>
+	
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 点选 -->
+	    <div class="sleft">
+	        <i>6.点选</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!-- 点选 -->
+	            <em>是否</em>
+	            <div class="sinput sradio">
+	                <div class="sra">
+	                    <input type="radio" name="radio">
+	                    <em>是</em>
+	                </div>
+	                <div class="sra">
+	                    <input type="radio" name="radio">
+	                    <em>否</em>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 复选 -->
+	    <div class="sleft">
+	        <i>7.复选</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!-- 点选 -->
+	            <em>复选</em>
+	            <div class="sinput scheck">
+	                <div class="sra left">
+	                    <input type="checkbox">
+	                    <em>选项1</em>
+	                </div>
+	                <div class="sra right">
+	                    <input type="checkbox">
+	                    <em>选项2</em>
+	                </div>
+	                <div class="sra right">
+	                    <input type="checkbox">
+	                    <em>选项3</em>
+	                </div>
+	            </div>
+	
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 输入搜索 -->
+	    <div class="sleft">
+	        <i>8.导入</i>
+	    </div>
+	    <div class="sright">
+	        <div class="im imm"><!--输入搜索-->
+	            <em>导入</em>
+	            <div class="sinput input-group">
+	                <input class="form-control" placeholder="" aria-describedby="basic-addon2" type="text">
+	                <span class="input-group-addon">
+	                    <i class="fa fa-upload"></i>
+	                </span>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 按钮 -->
+	    <div class="sleft">
+	        <i>9.按钮</i>
+	    </div>
+	    <div class="sright">
+	        <div class="dbtn">
+	            <button type="button" class="shape btnblue">主要</button>
+	            <button type="button" class="shape btngreen">成功</button>
+	            <button type="button" class="shape btnorange">警告</button>
+	            <button type="button" class="shape btnred">危险</button>
+	            <button type="button" class="shape btngray">取消</button>
+	        </div>
+	
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 按钮组 -->
+	    <div class="sleft">
+	        <i>10.按钮组</i>
+	    </div>
+	    <div class="sright stop">
+	        <div class="btn-group" role="group" aria-label="Basic example">
+	            <button type="button" class="btn btn-default btnthree">按钮一</button>
+	            <button type="button" class="btn btn-default btnthree">按钮二</button>
+	            <button type="button" class="btn btn-default btnthree">按钮三</button>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 页签-1 -->
+	    <div class="sleft">
+	        <i>11.页签-1</i>
+	    </div>
+	    <div class="sright">
+	        <!--tab切换-->
+	        <div class="ztab">
+	            <div class="col-xs-3 click" onclick="">
+	                页签一
+	            </div>
+	            <div class="col-xs-3" onclick="">
+	                页签二
+	            </div>
+	            <div class="col-xs-3" onclick="">
+	                页签三
+	            </div>
+	            <div class="col-xs-3" onclick="">
+	                页签四
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	    
+	<div class="inn">
+	    <!-- 页签-2 -->
+	    <div class="sleft">
+	        <i>12.页签-2</i>
+	    </div>
+	    <div class="sright">
+	        <!--tab切换-2-->
+	        <div class="stab">
+	            <div class="col-xs-3 click" onclick="">
+	                页签一
+	            </div>
+	            <div class="col-xs-3" onclick="">
+	                页签二
+	            </div>
+	            <div class="col-xs-3" onclick="">
+	                页签三
+	            </div>
+	            <div class="col-xs-3" onclick="">
+	                页签四
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 面包屑 -->
+	    <div class="sleft">
+	        <i>13.面包屑</i>
+	    </div>
+	    <div class="sright">
+	        <!-- 面包屑 -->
+	        <div class="sbre">
+	            <em>子系统</em>
+	            <i class="fa fa-angle-right"></i>
+	            <em>技术元数据</em>
+	            <i class="fa fa-angle-right"></i>
+	            <em>数据分析</em>
+	            <i class="fa fa-angle-right"></i>
+	            <em class="click">清单管理</em>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 进度条 -->
+	    <div class="sleft">
+	        <i>14.进度条</i>
+	    </div>
+	    <div class="sright">
+	        <!-- 进度条 -->
+	        <div class="progress">
+	            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+	                <span class="sr-only">60% Complete</span>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 移动标尺 -->
+	    <div class="sleft">
+	        <i>15.移动标尺</i>
+	    </div>
+	    <div class="sright">
+	        <!-- 移动标尺 -->
+	        <div class="srule">
+	            <input class="easyui-slider" style="width:300px" data-options="
+				showTip:true,
+				rule: [0,'|',20,'|',40,'|',60,'|',80,'|',100]
+				">
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 三级横向联动下拉框 -->
+	    <div class="sleft">
+	        <i>16.三级横向联动下拉框</i>
+	    </div>
+	    <div class="sright">
+	        <!-- 三级横向联动下拉框 -->
+	        <form action="" name="form1" class="sform">
+	            <div class="item input-150" id="Province">
+	                <i>请选择省份</i>
+	                <span class="fa fa-caret-down"></span>
+	                <ul>
+	                    <li>
+	                        <em>请选择省份</em>
+	                    </li>
+	                </ul>
+	                <input type="hidden" name="cho_Province" value="请选择省份" />
+	            </div>
+	            <div class="item input-150" id="City">
+	                <i>请选择城市</i>
+	                <span class="fa fa-caret-down"></span>
+	                <ul>
+	                    <li>
+	                        <em>请选择城市</em>
+	                    </li>
+	                </ul>
+	                <input type="hidden" name="cho_City" value="请选择城市" />
+	            </div>
+	            <div class="item input-150" id="Area">
+	                <i>请选择地区</i>
+	                <span class="fa fa-caret-down"></span>
+	                <ul>
+	                    <li>
+	                        <em>请选择地区</em>
+	                    </li>
+	                </ul>
+	                <input type="hidden" name="cho_Area" value="请选择地区" />
+	            </div>
+	        </form>
+	    </div>
+	</div>
+	
+	
+	<div class="inn">
+	    <!-- 多项选择器 -->
+	    <div class="sleft stree">
+	        <i>17.多项选择器（树结构）</i>
+	    </div>
+	    <div class="sright stree">
+	        <!-- 多项选择器 -->
+	        <div class="sesim">
+	            <div class="sim"><!--下拉选择-->
+	                <em>筛选条件</em>
+	                <div class="cdrop">
+	                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                        <i>全部</i>
+	                        <span class="caret"></span>
+	                    </button>
+	                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+	                        <li><a href="#">选项 1</a></li>
+	                        <li><a href="#">选项 2</a></li>
+	                        <li><a href="#">选项 3</a></li>
+	                        <li><a href="#">选项 4</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	
+	        <div class="schose">
+	            <div class="morechose">
+	                <div class="cho"></div>
+	            </div>
+	            <div class="scbtn">
+                    <button class="bgblue">
+                        <i class="fa fa-angle-right"></i>
+                    </button>
+                    <button class="bgblue">
+                        <i class="fa fa-angle-left"></i>
+                    </button>
+                    <button class="bggreen">
+                        <i class="fa fa-angle-up"></i>
+                    </button>
+                    <button class="bggreen">
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+	            </div>
+	            <div class="morechose">
+	                <div class="cho"></div>
+	            </div>
+	            <div class="bigbtn">
+	                <button class="bggray">取消</button>
+	                <button class="bgblue">确认</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div class="inn">
+	    <!-- 多项选择器-单选 -->
+	    <div class="sleft stree">
+	        <i>18.多项选择器（单项选择）</i>
+	    </div>
+	    <div class="sright stree" style="margin-top: 30px;">
+	        <!-- 多项选择器-单选 -->
+	        <div class="schose">
+	            <div class="morechose">
+	                <div class="cho">
+	                		<em>组内标签：</em>
+	                		<div class=""></div><!--内容预留区域-->
+	                </div>
+	            </div>
+	            <div class="scbtn">
+                    <button class="bgblue">
+                        <i class="fa fa-angle-right"></i>
+                    </button>
+                    <button class="bgblue">
+                        <i class="fa fa-angle-left"></i>
+                    </button>
+                    <button class="bggreen">
+                        <i class="fa fa-angle-up"></i>
+                    </button>
+                    <button class="bggreen">
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+	            </div>
+	            <div class="morechose">
+	                <div class="cho">
+	                		<em>组内标签：</em>
+	                		<div class=""></div><!--内容预留区域-->
+	                </div>
+	            </div>
+	            <div class="bigbtn">
+	                <button class="bggray">取消</button>
+	                <button class="bgblue">确认</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.easyui.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.upload.js"></script>
+    <script src="ui/js/city.min.js"></script>
+    <script src="assets/js/jquery.cityselect.js"></script>
+    <script src="ui/js/layout.js"></script>
+    <script src="ui/js/style.js"></script>
+
+
+</body>
+</html>

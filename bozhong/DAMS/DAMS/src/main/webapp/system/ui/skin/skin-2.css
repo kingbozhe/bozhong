@@ -1,0 +1,104 @@
+.login-logo {
+	background: url(../images/arcu.png) no-repeat 10px 15px / 180px;
+}
+.form-box {
+	background: rgba(0, 0, 0, 0.12);
+	border: solid 1px rgba(255, 255, 255, 0.5);
+}
+.form-top {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.06);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.4);
+}
+.login-inn button.btn {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#78D7F9, endColorStr=#5198BE); /*IE 6 7 8*/
+	background: -ms-linear-gradient(top, #78D7F9, #5198BE);        /* IE 10 */
+	background:-moz-linear-gradient(top, #78D7F9, #5198BE);/*鐏嫄*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#78D7F9), to(#5198BE));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #78D7F9, #5198BE);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #78D7F9, #5198BE);  /*Opera 11.10+*/
+}
+.login-inn button.btn:hover {
+	opacity: 0.9;
+}
+.form-group {
+    border: solid 1px rgba(255, 255, 255, 0.3);
+}
+.form-group input,
+.form-group input:hover,
+.form-group input:focus {
+	background-color: rgba(255, 255, 255, 0.08)!important;
+	border: none;
+	color: #fff;
+}
+.form-group i.user,
+.form-group i.lock{
+	background-color: rgba(255, 255, 255, 0.08);
+	border-right: solid 1px rgba(255, 255, 255, 0.3)
+}
+.form-group i.user{
+	background-image: url(../images/user-admin-white.png);
+}
+.form-group i.lock{
+	background-image: url(../images/lock-white.png);
+}
+.form-box {
+	float: right;
+}
+
+/*input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder {
+    color: #fff;
+}*/
+
+
+
+.head {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#5BC8E6, endColorStr=#468AB4); /*IE 6 7 8*/
+	background: -ms-linear-gradient(top, #5BC8E6, #468AB4);        /* IE 10 */
+	background:-moz-linear-gradient(top, #5BC8E6, #468AB4);/*鐏嫄*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5BC8E6), to(#468AB4));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #5BC8E6, #468AB4);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #5BC8E6, #468AB4);  /*Opera 11.10+*/
+}
+.head .logo{
+	background: url(../images/arcu-white.png) no-repeat 10px 11px / 210px;
+}
+.menu-list {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=#80BFD0, endColorStr=#5494BB); /*IE 6 7 8*/
+	background: -ms-linear-gradient(left, #80BFD0, #5494BB);        /* IE 10 */
+	background:-moz-linear-gradient(left, #80BFD0, #5494BB);/*鐏嫄*/
+	background: -webkit-gradient(linear, left, from(#80BFD0), to(#5494BB));  /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(left, #80BFD0, #5494BB);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(left, #80BFD0, #5494BB);  /*Opera 11.10+*/
+}
+.HeadMenu .active,
+.HeadMenu .active:hover{
+    background: rgba(0, 0, 0, 0.1);
+    border-left: solid 1px rgba(255, 255, 255, 0.4);
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.head .headright .information .inn:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.18);
+    border-left: solid 1px rgba(255, 255, 255, 0.4);
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.LeftMenu > ul > li > em {
+    background: rgba(0, 0, 0, 0.2);
+}
+.LeftMenu ul.two {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.LeftMenu ul em:hover {
+    color: #C1F1FF;
+}
+.LeftMenu ul em:hover span {
+    color: #C1F1FF;
+}
+.sky-blue {
+    color: #C1F1FF;
+}

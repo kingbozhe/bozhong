@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<properties resource="mybatis/sqlMapConfig.properties"/>
+	<settings>
+   		<setting name="useColumnLabel" value="false"/>
+    	<setting name="callSettersOnNulls" value="true"/>
+   	</settings>
+    <typeAliases>
+	    <typeAlias alias="UpperCaseMap" type="com.teradata.dams.base.util.UpperCaseMap" />
+    	<typeAlias alias="BizAtom" type="com.teradata.dams.core.model.BizAtom" />
+    	<typeAlias alias="Action" type="com.teradata.dams.core.model.ActionDTO" />
+    	<typeAlias alias="SysParameter" type="com.teradata.dams.auth.model.SysParamVO" />
+		<typeAlias alias="User" type="com.teradata.dams.auth.model.UserVO" />
+		<typeAlias alias="NodeTree" type="com.teradata.dams.auth.model.NodeTree" />
+		<typeAlias alias="Theme" type="com.teradata.dams.auth.model.ThemeVO" />
+    </typeAliases>
+    <typeHandlers>
+        <typeHandler handler="com.teradata.dams.core.util.EmptyStringIfNullHandler" javaType="String" jdbcType="VARCHAR"    />
+    </typeHandlers>
+    <mappers>
+    	<!--core  -->
+    	<mapper resource="mybatis/sqlmap_mysql/ActionMapper.mybatis.xml" />
+    	<mapper resource="mybatis/sqlmap_mysql/AuditMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/AppMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/BizEntityMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/DrillMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/LoginMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/MenuMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/ModelMapper.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/DocumentMapper.mybatis.xml" />
+		<!-- dbcommon  -->
+		<mapper resource="mybatis/sqlmap_mysql/ExportTableValue.mybatis.xml" />
+		<mapper resource="mybatis/sqlmap_mysql/LoadTableValue.mybatis.xml" />
+ 		<mapper resource="mybatis/sqlmap_mysql/Template.mybatis.xml" />
+		<!-- net  -->
+		<mapper resource="mybatis/sqlmap_mysql/Group.mybatis.xml" />
+		<!-- auth  -->
+		<mapper resource="mybatis/sqlmap_mysql/SysParameMapper.mybatis.xml" />
+		
+		<mapper resource="mybatis/sqlmap_mysql/ThemeMapper.mybatis.xml" />
+		<!-- cardAnalysis  -->
+		<!--<mapper resource="mybatis/sqlmap_mysql/CardAnalysisMapper.mybatis.xml" />
+		&lt;!&ndash; showDifference  &ndash;&gt;
+		<mapper resource="mybatis/sqlmap_mysql/ShowDifferenceMapper.mybatis.xml" />-->
+    </mappers>
+</configuration>

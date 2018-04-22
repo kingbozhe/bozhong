@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+E:\project workspaces\bozhong\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3915041868.index
+2615225800.index
+4171720193.index
+727537090.index
+171279048.index

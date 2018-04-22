@@ -1,0 +1,690 @@
+
+.system_box {
+	border: 1px solid #eeeeee;
+	margin: 5px;
+	display: inline;
+	float: left;
+	padding: 0;
+	width: 97%;
+	min-height:400px;
+}
+
+.system_box_in {
+	width: 100%;
+	float: left;
+	
+}
+
+.system_left {
+	width: 20%;
+	float: left;
+	background: #f6f6f6;
+	overflow: auto;
+	overflow-x: hidden;
+	
+}
+
+.system_center {
+	width: 1%;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	background: url(/edwmPortlet/image/line.gif) repeat left top;
+	float: left;
+}
+
+.system_center {
+	width: 1%;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	background: url(/edwmPortlet/image/line.gif) repeat left top;
+	float: left;
+}
+
+.system_center_in {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.system_center_ico {
+	background: url(/edwmPortlet/image/dashboard_right.gif) no-repeat left top;
+	width: 8px;
+	height: 45px;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}
+
+.system_right {
+	width: 78%;
+	float: right;
+}
+
+.system_form {
+	width: 98%;
+	float: right;
+	margin: 1px 15px 0px 5px;
+	display: inline;
+	padding-bottom: 15px;
+}
+
+.stytem_title {
+	width: 97%;
+	font-size: 14px;
+	color: #e1a932;
+	border-bottom: 1px solid #e5e5e5;
+	background: url(/edwmPortlet/image/ico_system_title.gif) no-repeat 3px 1px;
+	padding-bottom: 10px;
+	padding-left: 3%;
+}
+
+.stytem_title span {
+	float: right;
+	width: 70px;
+	background: #fff8f1;
+	height: 16px;
+	line-height: 16px;
+	border: 1px solid #ffd3a3;
+	text-align: center;
+	font-size: 12px;
+}
+
+.stytem_title span a {
+	color: #e1a932;
+}
+
+.stytem_table_box {
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#menu {
+	background: #fff;
+	border: 1px solid #8ad5f0;
+	
+	border-bottom: none;
+	min-height:360px;
+}
+
+#menu li{
+		width: 100%;
+	}
+
+.U11 {
+	background: #fff;
+	border-bottom: 0 solid #8ad5f0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.L11{
+		width: 100%;
+	}
+* html .L11 a {
+	width: 94%;
+	display: block;
+	overflow: hidden;
+}
+
+.L11 A:link,.L11 A:visited {
+	display: block;
+	background: url(/edwmPortlet/image/left_nav_13.gif) no-repeat right top #e7f6fc;
+	color: #1a4999;
+	text-decoration: none;
+	line-height: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #8ad5f0;
+	cursor: pointer;
+	padding: 5px 20px 5px 5px;
+}
+
+.L11 A.active:link,.L11 A.active:hover,.L11 A.active:visited {
+	background: url(/edwmPortlet/image/left_nav_16.gif) no-repeat right top #e7f6fc;
+}
+
+.L11 A.active:link,.L11 A.active:hover,.L11 A.active:active,.L11 A.active:visited
+	{
+	font-weight: bold;
+}
+
+* html .L12 a {
+	width: 94%;
+	display: block;
+	overflow: hidden;
+}
+
+.L12 A:link,.L12 A:visited {
+	display: block;
+	background: url(/edwmPortlet/image/left_nav_14.gif) no-repeat right top #e7f6fc;
+	color: #1a4999;
+	text-decoration: none;
+	line-height: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #8ad5f0;
+	cursor: pointer;
+	padding: 5px 20px 5px 5px;
+}
+
+.L12 A.active:link,.L12 A.active:hover,.L12 A.active:visited {
+	background: url(/edwmPortlet/image/left_nav_16.gif) no-repeat right top #e7f6fc;
+}
+
+.L12 A.active:link,.L12 A.active:hover,.L12 A.active:active,.L12 A.active:visited
+	{
+	font-weight: bold;
+}
+
+.L22 A:link,.L22 A:visited {
+	display: block;
+	padding: 4px 6px 4px 26px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 10px center;
+	cursor: pointer;
+}
+
+.L22 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 10px center #f2f2f2;
+}
+
+.L21 A:link,.L21 A:visited {
+	display: block;
+	padding: 4px 6px 4px 26px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 10px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L21 A.active:link,.L21 A.active:hover,.L21 A.active:active,.L21 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 10px center #fff;
+	font-weight: normal;
+}
+
+.L32 A:link,.L32 A:visited {
+	display: block;
+	padding: 4px 6px 4px 42px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 26px center;
+	cursor: pointer;
+}
+
+.L32 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 26px center;
+}
+
+.L31 A:link,.L31 A:visited {
+	display: block;
+	padding: 4px 6px 4px 42px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 26px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L31 A.active:link,.L31 A.active:hover,.L31 A.active:active,.L31 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 26px center #fff;
+	font-weight: normal;
+}
+
+.L42 A:link,.L42 A:visited {
+	display: block;
+	padding: 4px 6px 4px 58px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 42px center;
+	cursor: pointer;
+}
+
+.L42 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 42px center;
+}
+
+.L41 A:link,.L41 A:visited {
+	display: block;
+	padding: 4px 6px 4px 58px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 42px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L41 A.active:link,.L41 A.active:hover,.L41 A.active:active,.L41 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 42px center #fff;
+	font-weight: normal;
+}
+
+.L52 A:link,.L52 A:visited {
+	display: block;
+	padding: 4px 6px 4px 74px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 58px center;
+	cursor: pointer;
+}
+
+.L52 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 58px center;
+}
+
+.L51 A:link,.L51 A:visited {
+	display: block;
+	padding: 4px 6px 4px 74px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 58px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L51 A.active:link,.L51 A.active:hover,.L51 A.active:active,.L51 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 58px center #fff;
+	font-weight: normal;
+}
+
+.L62 A:link,.L62 A:visited {
+	display: block;
+	padding: 4px 6px 4px 90px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 74px center;
+	cursor: pointer;
+}
+
+.L62 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 74px center;
+}
+
+.L61 A:link,.L61 A:visited {
+	display: block;
+	padding: 4px 6px 4px 90px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 74px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L61 A.active:link,.L61 A.active:hover,.L61 A.active:active,.L61 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 74px center #fff;
+	font-weight: normal;
+}
+
+.L72 A:link,L72 A:visited {
+	display: block;
+	padding: 4px 6px 4px 106px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 90px center;
+	cursor: pointer;
+}
+
+.L72 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 90px center;
+}
+
+.L71 A:link,.L71 A:visited {
+	display: block;
+	padding: 4px 6px 4px 106px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 90px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L71 A.active:link,.L71 A.active:hover,.L71 A.active:active,.L71 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 90px center #fff;
+	font-weight: normal;
+}
+
+.L82 A:link,.L82 A:visited {
+	display: block;
+	padding: 4px 6px 4px 122px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 106px center;
+	cursor: pointer;
+}
+
+.L82 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 106px center;
+}
+
+.L81 A:link,.L81 A:visited {
+	display: block;
+	padding: 4px 6px 4px 122px;
+	color: #333333;
+	text-decoration: none;
+	background: url(/edwmPortlet/image/left_nav_27.gif) no-repeat 106px center;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+.L81 A.active:link,.L81 A.active:hover,.L81 A.active:active,.L81 A.active:visited
+	{
+	background: url(/edwmPortlet/image/left_nav_18.gif) no-repeat 106px center #fff;
+	font-weight: normal;
+}
+
+.L92 A:link,.L92 A:visited {
+	display: block;
+	padding: 4px 6px 4px 138px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	background: url(/edwmPortlet/image/left_nav_25.gif) no-repeat 122px center;
+	cursor: pointer;
+}
+
+.L92 A:hover {
+	background: url(/edwmPortlet/image/left_nav_22.gif) no-repeat 122px center;
+}
+
+.L21 A:hover,.L21 A.active:hover,.L31 A:hover,.L31 A.active:hover,.L41 A:hover,.L41 A.active:hover,.L51 A:hover,.L51 A.active:hover,.L61 A:hover,.L61 A.active:hover,.L71 A:hover,.L71 A.active:hover,.L81 A:hover,.L81 A.active:hover
+	{
+	background-color: #f2f2f2;
+}
+
+.L11 A:hover,.L12 A:hover,.L21 A:hover,.L22 A:hover,.L31 A:hover,.L32 A:hover,.L41 A:hover,.L42 A:hover,.L51 A:hover,.L52 A:hover,.L61 A:hover,.L62 A:hover,.L71 A:hover,.L72 A:hover,.L81 A:hover,.L82 A:hover,.L91 A:hover,.L92 A:hover
+	{
+	color: #ff6600;
+}
+.table_general {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: right;
+	font-size: 12px;
+}
+
+.table_general thead{
+	width: 100%;
+	line-height: 20px;
+}
+
+.table_general tr th {
+	background: url(/edwmPortlet/image/title.gif) repeat-x left bottom;
+	text-align: center;
+	border: 1px dotted #ccc;
+	_border: 1px solid #e9e9e9;
+	_border: 1px solid #e9e9e9;
+	color: #286bc5;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 7px;
+	white-space: nowrap
+}
+
+.table_general tr td {
+	line-height: 15px;
+	padding: 7px;
+	border: 1px dotted #ccc;
+	_border: 1px solid #e9e9e9;
+	border-collapse: collapse;
+	_border: 1px solid #e9e9e9;
+	white-space: nowrap
+}
+
+.table_title1 {
+	background: url(/edwmPortlet/image/title.gif) repeat-x left bottom;
+	text-align: center;
+	border: 1px dotted #ccc;
+	_border: 1px solid #e9e9e9;
+	color: #286bc5;
+	font-weight: bold;
+	border-left: 0;
+	
+}
+
+.table_from {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table_from tr th {
+	background: url(/edwmPortlet/image/title.gif) repeat-x left bottom;
+	text-align: center;
+	border: 1px dotted #ccc;
+	_border: 1px solid #e9e9e9;
+	_border: 1px solid #e9e9e9;
+	color: #286bc5;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 7px;
+}
+
+.table_from tr td {
+	line-height: 15px;
+	padding: 7px;
+}
+
+td.click,th.click {
+	background-color: #fcf8af;
+}
+
+td.hover,tr.hover {
+	background-color: #fffdd8;
+}
+
+th.hover,tfoot td.hover {
+	background-color: #fffdd8;
+}
+
+td.hovercell,th.hovercell {
+	background-color: #fffdd8;
+}
+
+td.hoverrow,th.hoverrow {
+	background-color: #fffdd8;
+}
+/*
+   edwmPortlet dataobjectTree
+*/
+
+ .objectBrowserTreeDiv
+{
+    color: #666666;
+    width: 260px;
+    height: 490px;
+    border: 1px #999999 solid;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    position:relative; /* TEMP IE FIX */
+    z-index:1; /* TEMP IE FIX */
+    overflow-y: auto;
+		overflow-x: hidden;
+
+}
+
+/* ztree*/
+.ztree li span.button.DBUSERLIST_ico_open, .ztree li span.button.DBUSERLIST_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_system.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.USER_ico_open,.ztree li span.button.USER_AUTHED_ico_open, .ztree li span.button.USER_AUTHED_ico_close, .ztree li span.button.USER_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_user.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.USER_UNAUTHED_ico_open, .ztree li span.button.USER_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_user_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+.ztree li span.button.DATABASE_ico_open,.ztree li span.button.DATABASE_AUTHED_ico_open,.ztree li span.button.DATABASE_AUTHED_ico_close, .ztree li span.button.DATABASE_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_db.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.DATABASE_UNAUTHED_ico_open, .ztree li span.button.DATABASE_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_db_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.tables_ico_open,.ztree li span.button.tables_AUTHED_ico_open, .ztree li span.button.tables_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_tables.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.views_ico_open, .ztree li span.button.views_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_views.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.macros_ico_open, .ztree li span.button.macros_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_macros.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.procedures_ico_open, .ztree li span.button.procedures_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_procedures.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.functions_ico_open, .ztree li span.button.functions_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_functions.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.TABLE_ico_docu,.ztree li span.button.TABLE_AUTHED_ico_docu,.ztree li span.button.TABLE_AUTHED_ico_open,.ztree li span.button.TABLE_ico_open,.ztree li span.button.TABLE_AUTHED_ico_close,.ztree li span.button.TABLE_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_table.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.TABLE_UNAUTHED_ico_docu,.ztree li span.button.TABLE_UNAUTHED_ico_open,.ztree li span.button.TABLE_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_table_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+.ztree li span.button.VIEW_ico_docu,.ztree li span.button.VIEW_AUTHED_ico_docu,.ztree li span.button.VIEW_AUTHED_ico_open,.ztree li span.button.VIEW_ico_open,.ztree li span.button.VIEW_AUTHED_ico_close,.ztree li span.button.VIEW_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_view.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.VIEW_UNAUTHED_ico_docu,.ztree li span.button.VIEW_UNAUTHED_ico_ppen,.ztree li span.button.VIEW_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_view_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+
+.ztree li span.button.MACRO_ico_docu,.ztree li span.button.MACRO_AUTHED_ico_docu,.ztree li span.button.MACRO_AUTHED_ico_close,  .ztree li span.button.MACRO_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_macro.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.MACRO_UNAUTHED_ico_docu, .ztree li span.button.MACRO_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_macro_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+.ztree li span.button.PROCEDURE_ico_docu,.ztree li span.button.PROCEDURE_AUTHED_ico_docu, .ztree li span.button.PROCEDURE_AUTHED_ico_close,  .ztree li span.button.PROCEDURE_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_procedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.PROCEDURE_UNAUTHED_ico_docu, .ztree li span.button.PROCEDURE_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_procedure_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+.ztree li span.button.FUNCTION_ico_docu,.ztree li span.button.FUNCTION_AUTHED_ico_docu, .ztree li span.button.FUNCTION_AUTHED_ico_close,.ztree li span.button.FUNCTION_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_function.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.FUNCTION_UNAUTHED_ico_docu, .ztree li span.button.FUNCTION_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_function_missing.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+.ztree li span.button.COLUMN_ico_docu,.ztree li span.button.COLUMN_AUTHED_ico_docu, .ztree li span.button.COLUMN_AUTHED_ico_close,.ztree li span.button.COLUMN_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.COLUMN_UNAUTHED_ico_docu, .ztree li span.button.COLUMN_UNAUTHED_ico_close{margin-right:2px; background: url(/edwmPortlet/image/ObjBrowser/icn_column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+.rmenu_13 span{margin-right:2px;padding-left:20px; background: url(/edwmPortlet/image/ObjBrowser/icn_db.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.rmenu_14 span{margin-right:2px;padding-left:20px; background: url(/edwmPortlet/image/icn_procedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.rmenu_15 span{margin-right:2px;padding-left:20px; background: url(/edwmPortlet/image/icn_macro.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.rmenu_16 span{margin-right:2px;padding-left:20px; background: url(/edwmPortlet/image/icn_function.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+
+
+/*dataObjectManageContent*/
+
+.dataObjectManage{
+	height:500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+    color: #6C6C6C;   
+    margin: 10px 10px 10px 0;
+    text-align: left;
+    border: 1px #999999 solid;
+    width:100%
+}
+.dataObjectManage .dataObjectManageContent{
+	 margin: 10px 10px 10px 10px;
+}
+
+/*new table css*/
+.table_showinfo {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: right;
+	font-size: 10px;
+}
+
+.table_showinfo thead{
+	width: 100%;
+	line-height: 20px;
+	border-bottom: 1px dashed #999999;
+}
+
+.table_showinfo tr th {
+	font-size: 11px;
+    font-weight: bold;
+    overflow: hidden;
+	padding: 2px 0px 3px;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+	border-right: 1px solid #F1F1F1;
+}
+
+.table_showinfo tr td {
+	font-size: 12px;
+	border-right: 1px solid #FFFFFF;
+    height: 100%;
+    overflow: hidden;
+    padding: 1px 10px 0;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.table_showinfo_title1 {
+    background-image: url("/CommonsWeb/images/admin/admin_cap_mid.gif");
+    background-position: left top;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    font-family: Verdana,Arial;
+    font-size: 13px;
+    height: 25px;
+    text-align: center;
+}
+
+.table_showinfo_fieldset {
+    padding:6px;boder:1px solid #ff9900;
+	color:#6C6C6C;
+	line-height:2.0;
+	font-size:12px;
+}
+
+.table_detail_info{
+	 overflow-y:auto;
+	 overflow-x: hidden;
+}
+
+.background_prompt{
+	background-image: url("/edwmPortlet/image/redprompt.gif");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.input_disabled{
+	border: 1px solid #DDD;
+	background-color: #EBEBE4;
+	color:#ACA899;
+}
+
+.processing{
+	position:absolute;
+	top:6px; 
+	left:510px;
+}
+
+.hidden{
+	dispaly:none;
+}
+.hint{
+    color:red;
+}
+.password_validator{
+    color:pink;
+}
+.displayhead_create_table{
+    border:1px solid #000;
+	background-color :#778899;
+}
+.table_create{
+	font-size: 10px;
+	table-layout:fixed;
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+	border:1px solid #cad9ea;
+	color:#666;
+}
+.table_create td{
+    height:20px;
+	border:1px solid #cad9ea;
+    padding:0;
+}
+.table_create td input.small{
+    width:120px;
+}
+.table_create tr.content_bold{
+    font-weight:bold;
+}
+.layout_fixed{
+  table-layout:fixed;
+}
+.checked_hint{
+  background-color:tan;
+}

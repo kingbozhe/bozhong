@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ~ Copyright (C) 2012 by Teradata Corporation. ~ All Rights Reserved. 
+	~ TERADATA CORPORATION CONFIDENTIAL AND TRADE SECRET -->
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- <util:map id="sqlBuilderMap">
+        <entry key="tdDataSource" value-ref="tdSqlBuilderManager" />
+		<entry key="db2DataSource" value-ref="db2SqlBuilderManager" />
+		<entry key="mySqlDataSource" value-ref="mySqlBuilderManager" />
+		 <entry key="oraDataSource" value-ref="oraSqlBuilderManager" />
+		<entry key="prestoDataSource" value-ref="prestoSqlBuilderManager" />
+    </util:map> -->
+
+<!-- 数据源定义  -->
+    <bean id="damsDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+	    <property name="jndiName">
+	    	<value>java:/comp/env/jdbc/TeradataDAMS</value>
+	    </property>
+    </bean>
+
+	<bean id="damsSqlMapClient" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<description>location of iBatis configuration file</description>
+		<property name="configLocation" value="classpath:mybatis/td/mysql.mybatis.config.xml"></property>
+		<property name="dataSource" ref="damsDataSource" />
+	</bean>
+	
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+       	<constructor-arg index="0" ref="damsSqlMapClient"/>
+   	</bean>
+   	
+	<!-- 配置扫描器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 扫描com.teradata.dams.dao这个包以及它的子包下的所有映射接口类 -->
+        <property name="basePackage" value="com.teradata.dams.core.dao" />
+        <property name="sqlSessionFactoryBeanName" value="damsSqlMapClient" />
+    </bean>
+    
+	<!-- DAO's -->
+
+	<!-- 
+	<bean id="systemDAO" class="com.teradata.dcs.config.dao.ibatis.SystemDAOiBatis">
+		<description>DAO for accessing System information</description>
+		<property name="sqlMapClient" ref="dcsSqlMapClient" />
+	</bean>
+ 	-->
+<!--	<bean id="jdbcDao" class="com.teradata.portlets.ds.dao.jdbc.BaseJdbcDAO">
+		<description>DAO for accessing System information</description>
+ 		<property name="connectionManager" ref="connectionManager" />
+ 	</bean>-->
+	
+</beans>

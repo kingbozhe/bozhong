@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                http://www.springframework.org/schema/mvc
+                http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	<description>Contains definitions for beans used by servlet
+		user interface</description>
+		
+	<mvc:annotation-driven/>
+	
+	<!--<context:component-scan base-package="com.teradata.dams">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" /> 
+    </context:component-scan>-->
+   
+	 	<!-- view resolvers -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 指定所上传文件的总大小不能超过200KB。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->
+		<property name="maxUploadSize" value="30000000" />
+	</bean>
+	
+	<bean id="servletViewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<description>Resolves view names to JSP implementations in the
+			portlet-jsp directory</description>
+		<property name="order">
+			<value>1</value>
+		</property>
+		<property name="viewClass">
+			<value>org.springframework.web.servlet.view.JstlView</value>
+		</property>
+		<property name="prefix">
+			<value>/WEB-INF/portlet-jsp/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+	
+	<!-- <bean name="/method"
+	class ="org.springframework.web.servlet.mvc.multiaction.MultiActionController">
+		<property name="methodNameResolver">
+			<ref bean="paramMethodResolver"/>
+		</property>
+	</bean>
+	
+	<bean id="paramMethodResolver"
+	class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
+		<property name="paramName" value="a"/>
+	</bean> -->
+	
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="mappingJacksonHttpMessageConverter"/>
+				<ref bean="formHttpMessageConverter" />
+				<ref bean="stringHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+   	<bean id="formHttpMessageConverter" class="org.springframework.http.converter.FormHttpMessageConverter"/>
+   <!--- StringHttpMessageConverter bean -->
+	<bean id = "stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter"/>
+	
+   	<mvc:resources mapping="/js/**" location="/js/" />
+   	<mvc:resources mapping="/css/**" location="/css/" />
+   	<mvc:resources mapping="/image/**" location="/image/" />
+   	<mvc:resources mapping="/auth/**" location="/system/" />
+   	<mvc:resources mapping="/images/**" location="/system/assets/css/images/" />
+	<mvc:resources mapping="/EC/**"   location="/system/" />
+	<mvc:resources mapping="/CDA/**"   location="/system/" />
+	<mvc:resources mapping="/SHOW/**"   location="/system/" />
+</beans>
+

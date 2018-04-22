@@ -1,0 +1,9 @@
+#Sat Nov 25 17:07:41 CST 2017
+SERVER_ENABLEMENT=true
+LIBRARY_PATH="E\:\\JDK new\\jdk1.7.0_05\\bin;E\:\\apache-tomcat-7.0.82\\bin"
+eclipse.preferences.version=1
+JDK_HOME=E\:\\JDK new\\jdk1.7.0_05
+TOMCAT_BASE=E\:\\apache-tomcat-7.0.82
+ENDORSED_DIRS="E\:\\apache-tomcat-7.0.82/common/endorsed"
+TOMCAT_HOME=E\:\\apache-tomcat-7.0.82
+TOMCAT_TEMP=E\:\\apache-tomcat-7.0.82\\temp

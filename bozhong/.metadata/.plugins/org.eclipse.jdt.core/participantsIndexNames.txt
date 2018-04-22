@@ -1,0 +1,11 @@
+INDEX VERSION 1.126
+E:\project workspaces\bozhong\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1634833902.index
+\DAMS\src\main\java
+E:\project workspaces\bozhong\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3514520562.index
+\DAMS\src\main\java
+E:\project workspaces\bozhong\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1066229322.index
+\DAMS\src\main\java
+E:\project workspaces\bozhong\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1753723422.index
+\DAMS\src\main\java
+E:\project workspaces\bozhong\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\352924859.index
+\DAMS\src\main\java
