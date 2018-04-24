@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <form id="form1" action="/mall/income" method="post">
     	<input type="text" name="id"/><br>
     	<input type="text" name="password"/><br>
-    	<button onClick="doSubmit()">提价</button>
+    	<button onClick="doSubmit()">提交</button>
     </form>
   </body>
 </html>
